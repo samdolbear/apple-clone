@@ -25,17 +25,20 @@ body {
   font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial",
     sans-serif;
   background-color: #fbfbfd;
+  overflow: hidden;
 }
 
 header {
   text-align: center;
+  background-color: rgb(45, 45, 45);
 }
 
 nav {
-  background-color: rgb(45, 45, 45);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .nav-link {
@@ -72,7 +75,7 @@ nav {
 }
 
 .thin {
-  font-weight: thin;
+  font-weight: lighter;
   font-size: 20px;
 }
 
@@ -86,4 +89,34 @@ nav {
 .hero-image {
   z-index: -1;
   margin-top: -200px;
+}
+
+.subhero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.products {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.products a {
+  width: 25%;
+  text-decoration: none;
+}
+
+.products img {
+  width: 100%;
+  height: auto;
+}
+
+.recall-link {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #06c;
 }
