@@ -84,6 +84,11 @@ nav {
   font-size: 20px;
   margin-right: 10px;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.hero-link:hover {
+  color: #00cccc;
 }
 
 .hero-image {
@@ -128,6 +133,11 @@ nav {
 .recall-link {
   text-decoration: none;
   color: #06c;
+  transition: color 0.3s ease;
+}
+
+.recall-link:hover {
+  color: #00cccc;
 }
 
 footer {
@@ -169,6 +179,11 @@ ul .title {
   display: inline-block;
   margin-top: 30px;
   color: #06c;
+  transition: color 0.3s ease;
+}
+
+.footer-end-1 a:hover {
+  color: #00cccc;
 }
 
 .footer-end-2 {
